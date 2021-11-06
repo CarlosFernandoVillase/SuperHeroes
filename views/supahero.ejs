@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <img src="<%=info.image.url%>">
+        <p>ID: <%=info.id%></p>
+        
+        <p>Name: <%=info.name%></p>
+
+        <p>Full Name: <%=info.biography['full-name']%></p>
+
+        <p>Powerstats</p>
+        <ul>
+            <li>Intelligence: <%=info.powerstats.intelligence%></li>
+            <li>Strength: <%=info.powerstats.strength%></li>
+            <li>Speed: <%=info.powerstats.speed%></li>
+            <li>Durability: <%=info.powerstats.durability%></li>
+            <li>Power: <%=info.powerstats.power%></li>
+            <li>Combat: <%=info.powerstats.combat%></li>
+        </ul>  
+
+        <p>Place of birth: <%=info.biography['place-of-birth']%></p>
+
+        <p>Aliases: <%=info.connections['relatives']%></p>
+
+        <p>Gender: <%=info.appearance.gender%></p>
+
+        <p>Race: <%=info.appearance.race%></p>
+
+        <p>Height: <%=info.appearance.height%></p>
+
+        <p>Weight: <%=info.appearance.weight%></p>
+
+        <p>Eye-color: <%=info.appearance['eye-color']%></p>
+
+        <p>Hair-color: <%=info.appearance['hair-color']%></p>
+
+        <p>Group affiliation: <%=info.connections['group-affiliation']%></p>
+
+        <a href="http://localhost:3000" >Link Button</a>
+    </div>
+</body>
+</html>

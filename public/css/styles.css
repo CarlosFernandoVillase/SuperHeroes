@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(9, 32, 10);
+    color: rgb(20, 236, 13);
+    font-family: monospace;
+}
+.box{
+    border-style: solid;
+    padding: 30px;
+    margin: 50px;
+    border-color: rgb(20, 236, 13);
+
+}
